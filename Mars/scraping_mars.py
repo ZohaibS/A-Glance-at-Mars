@@ -173,4 +173,6 @@ def Scrape():
     hemi_urls.append(valles_marineris)
 
     print(hemi_urls)
+
+    #hemi_urls_2 = json.dumps(hemi_urls)
     return(hemi_urls)
