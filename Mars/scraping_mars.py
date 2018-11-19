@@ -173,6 +173,7 @@ def Scrape():
     hemi_urls.append(valles_marineris)
 
     print(hemi_urls)
+    
+    dict_master = {"Data": [results_1, results_2, featured_img_url, mars_weather, mars_table, hemi_urls]}
 
-    #hemi_urls_2 = json.dumps(hemi_urls)
-    return(hemi_urls)
+    return(dict_master)

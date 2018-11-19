@@ -23,8 +23,8 @@ def scrape():
         upsert=True
     )
     
-    #return jsonify(mars_data)
-    return redirect("http://localhost:5000/", code=302)
+    return jsonify(mars_data)
+    #return redirect("http://localhost:5000/", code=302)
 
 @app.route('/')
 def index():
