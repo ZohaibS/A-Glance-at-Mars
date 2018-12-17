@@ -1,3 +1,2 @@
 # A Glance at Mars
-# Fancy index.html on the way.
-# For now, enjoy the scraping!
+#Python, Scraping via Splinter, MongoDB, Flask, PyMongo, Jinja2, Bootstrap
